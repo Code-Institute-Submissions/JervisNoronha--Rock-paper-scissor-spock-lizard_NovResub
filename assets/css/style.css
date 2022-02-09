@@ -27,10 +27,7 @@
 
 /* Result style */
 
-#message
-#points{
-  text-align: center;
-}
+
 
 #message {
   font-size: 1.5em;
@@ -38,5 +35,27 @@
   text-align: center;
   font-weight: bolder;
 }
+
+ /* Reset button */
+.reset {
+  display: inline-flex;
+  flex: 1 100%;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.reset > span {
+  font-size: 1.8em;
+  cursor: pointer;
+  border: 1px solid blue;
+  padding: 10px 15px;
+  background-color: blue;
+  box-shadow: 0 0 3px;
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
+
+
 
 
