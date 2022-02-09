@@ -1,134 +1,124 @@
 * {
-    box-sizing: border-box;
-    background-color: whitesmoke;
-  
-  }
-
-  #logo{
-    float: none;
-        margin: 0 auto;
-        width: 900px;
+	box-sizing: border-box;
+	background-color: whitesmoke;
 }
 
-#menu{
-  font-size: 200%;
-  text-align: center;
-  list-style: none;
+#logo {
+	float: none;
+	margin: 0 auto;
+	width: 900px;
 }
 
+#menu {
+	font-size: 200%;
+	text-align: center;
+	list-style: none;
+}
 
-
-#information{
-    height: 600px;
-    text-align: center;
-    font-size: 200%;
-    color: black;
+#information {
+	height: 600px;
+	text-align: center;
+	font-size: 200%;
+	color: black;
 }
 
 /* Score style */
 #result {
-  flex: 1 100%;
+	flex: 1 100%;
 }
 
 #round-message,
 #score {
-  text-align: center;
+	text-align: center;
 }
 
 #round-message {
-  font-size: 1.5em;
-  text-transform: capitalize;
+	font-size: 1.5em;
+	text-transform: capitalize;
 }
 
 #score {
-  font-size: 3em;
-  margin-bottom: 10px;
+	font-size: 3em;
+	margin-bottom: 10px;
 }
 
 /* Player style */
 .players {
-  display: inline-flex;
-  flex-wrap: wrap;
-  flex: 1;
-  padding: 10px 25px;
+	display: inline-flex;
+	flex-wrap: wrap;
+	flex: 1;
+	padding: 10px 25px;
 }
 
 .selected-option,
 .name,
 .available-options {
-  display: inline-flex;
-  flex: 1 100%;
-  padding: 15px 0;
+	display: inline-flex;
+	flex: 1 100%;
+	padding: 15px 0;
 }
 
 .selected-option,
 .name {
-  justify-content: center;
+	justify-content: center;
 }
 
 .name {
-  font-size: 1.8em;
-  font-weight: 600;
+	font-size: 1.8em;
+	font-weight: 600;
 }
 
 /* Options Style */
 .available-options {
-  justify-content: space-between;
+	justify-content: space-between;
 }
 
 .option {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 75px;
-  height: 75px;
-  padding: 10px;
-  border-radius: 50%;
-  box-shadow: 0 0 3px;
-  cursor: pointer;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 75px;
+	height: 75px;
+	padding: 10px;
+	border-radius: 50%;
+	box-shadow: 0 0 3px;
+	cursor: pointer;
 }
 
-
-
 .option:hover > img {
-  transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .option > img {
-  width: 70%;
-  transition: all 0.2s ease;
+	width: 70%;
+	transition: all 0.2s ease;
 }
 
 .selected-option > .option {
-  width: 110px;
-  height: 110px;
+	width: 110px;
+	height: 110px;
 }
 
 #player2 .option {
-  cursor: not-allowed;
-  background-color: beige;
+	cursor: not-allowed;
+	background-color: beige;
 }
 
 /* Reset button */
 .reset {
-  display: inline-flex;
-  flex: 1 100%;
-  justify-content: center;
-  margin-top: 20px;
+	display: inline-flex;
+	flex: 1 100%;
+	justify-content: center;
+	margin-top: 20px;
 }
 
 .reset > span {
-  font-size: 1.8em;
-  cursor: pointer;
-  border: 1px solid blue;
-  padding: 10px 15px;
-  background-color: blue;
-  box-shadow: 0 0 3px;
-  color: #fff;
-  transition: all 0.2s ease;
+	font-size: 1.8em;
+	cursor: pointer;
+	border: 1px solid blue;
+	padding: 10px 15px;
+	background-color: blue;
+	box-shadow: 0 0 3px;
+	color: #fff;
+	transition: all 0.2s ease;
 }
-
-
-
-
-

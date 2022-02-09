@@ -1,75 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rock, Paper, Scissor, Lizard, Spock Game</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
-  <body>
-    <main>
-      <!-- Result -->
-      <section id="result">
-        <h3 id="score">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Rock, Paper, Scissor, Lizard, Spock Game</title>
+	<link rel="stylesheet" href="./assets/css/style.css" /> </head>
+
+<body>
+	<main>
+		<!-- Result -->
+		<section id="result">
+			<h3 id="score">
           <span id="player1-score" class="points">0</span>
           <span id="player2-score" class="points">0</span>
         </h3>
-        <p id="round-message">Choose your option</p>
-      </section>
-
-      <!-- Player 1 area -->
-      <section id="player1" class="players">
-        <h4 class="name">Player1</h4>
-        <div class="selected-option">
-          <span class="option" data-index="0"> </span>
-        </div>
-        <div class="available-options">
-          <span class="option" data-index="0">
+			<p id="round-message">Choose your option</p>
+		</section>
+		<!-- Player 1 area -->
+		<section id="player1" class="players">
+			<h4 class="name">Player1</h4>
+			<div class="selected-option"> <span class="option" data-index="0"> </span> </div>
+			<div class="available-options"> <span class="option" data-index="0">
             <img src="assets/images/lizard.png" alt="Lizard" title="Lizard" />
-          </span>
-          <span class="option" data-index="1">
+          </span> <span class="option" data-index="1">
             <img src="assets/images/paper.jpg" alt="Paper" title="Paper" />
-          </span>
-          <span class="option" data-index="2">
+          </span> <span class="option" data-index="2">
             <img src="assets/images/rock.jpg" alt="Rock" title="Rock" />
-          </span>
-          <span class="option" data-index="3">
+          </span> <span class="option" data-index="3">
             <img src="assets/images/scissors.png" alt="Scissor" title="Scissor" />
-          </span>
-          <span class="option" data-index="4">
+          </span> <span class="option" data-index="4">
             <img src="assets/images/spock.png" alt="Spock" title="Spock" />
-          </span>
-        </div>
-      </section>
-
-      <!-- Player 2 area -->
-      <section id="player2" class="players">
-        <h5 class="name">Bot</h5>
-        <div class="selected-option">
-          <span class="option" data-index="0"> </span>
-        </div>
-        <div class="available-options">
-          <span class="option" data-index="0">
+          </span> </div>
+		</section>
+		<!-- Player 2 area -->
+		<section id="player2" class="players">
+			<h5 class="name">Bot</h5>
+			<div class="selected-option"> <span class="option" data-index="0"> </span> </div>
+			<div class="available-options"> <span class="option" data-index="0">
             <img src="assets/images/lizard.png" alt="Lizard" title="Lizard" />
-          </span>
-          <span class="option" data-index="1">
+          </span> <span class="option" data-index="1">
             <img src="assets/images/paper.jpg" alt="Paper" title="Paper" />
-          </span>
-          <span class="option" data-index="2">
+          </span> <span class="option" data-index="2">
             <img src="assets/images/rock.jpg" alt="Rock" title="Rock" />
-          </span>
-          <span class="option" data-index="3">
+          </span> <span class="option" data-index="3">
             <img src="assets/images/scissors.png" alt="Scissor" title="Scissor" />
-          </span>
-          <span class="option" data-index="4">
+          </span> <span class="option" data-index="4">
             <img src="assets/images/spock.png" alt="Spock" title="Spock" />
-          </span>
-        </div>
-      </section>
+          </span> </div>
+		</section>
+		<!-- Reset button --><span class="reset"><span>Reset</span></span>
+	</main>
+	<script src="./assets/js/script.js"></script>
+</body>
 
-      <!-- Reset button -->
-      <span class="reset"><span>Reset</span></span>
-    </main>
-    <script src="./assets/js/script.js"></script>
-  </body>
 </html>
