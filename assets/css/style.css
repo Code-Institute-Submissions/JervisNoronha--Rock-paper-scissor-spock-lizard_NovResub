@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    background-color: blue
+    background-color: whitesmoke;
+  
   }
 
   #logo{
@@ -8,6 +9,13 @@
         margin: 0 auto;
         width: 900px;
 }
+
+#menu{
+  font-size: 200%;
+  text-align: center;
+  list-style: none;
+}
+
 
 
 #information{
@@ -17,11 +25,3 @@
     color: black;
 }
 
-  main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    margin: 0 auto;
-    flex-wrap: wrap;
-  }
