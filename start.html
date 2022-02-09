@@ -1,77 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome To the Ultimate Rock Paper Scissor Lizard Spock Game</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, Paper, Scissor, Lizard, Spock Game</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
     <main>
-        <!--result-->
-        <section id="result">
-            <h3 id="points">
-                <span id="player1-points" class="points">0</span>
-                <span id="player2-points" class="points">0</span>
-            </h3>
-            <p id="message">Choose Your Pick</p>
-        </section>
+      <!-- Result -->
+      <section id="result">
+        <h3 id="score">
+          <span id="player1-score" class="points">0</span>
+          <span id="player2-score" class="points">0</span>
+        </h3>
+        <p id="round-message">Choose your option</p>
+      </section>
 
-        <!--player1-->
-        <section id="player1" class="players">
-            <h4 class="name">Player1</h4>
-        <div class="selected-options">
-            <span class="options" data-index="0"></span>
+      <!-- Player 1 area -->
+      <section id="player1" class="players">
+        <h4 class="name">Player1</h4>
+        <div class="selected-option">
+          <span class="option" data-index="0"> </span>
         </div>
         <div class="available-options">
-            <span class="options" data-index="0">
-                <img src="assets/images/lizard.png" alt="lizard" title="lizard">
-            </span>
-            <span class="options" data-index="1">
-                <img src="assets/images/paper.jpg" alt="paper" title="paper">
-            </span>
-            <span class="options" data-index="2">
-                <img src="assets/images/rock.jpg" alt="rock" title="rock">
-            </span>
-            <span class="options" data-index="3">
-                <img src="assets/images/scissors.png" alt="scissors" title="scissors">
-            </span>
-            <span class="options" data-index="4">
-                <img src="assets/images/spock.png" alt="spock" title="spock">
-            </span>
+          <span class="option" data-index="0">
+            <img src="assets/images/lizard.png" alt="Lizard" title="Lizard" />
+          </span>
+          <span class="option" data-index="1">
+            <img src="assets/images/paper.jpg" alt="Paper" title="Paper" />
+          </span>
+          <span class="option" data-index="2">
+            <img src="assets/images/rock.jpg" alt="Rock" title="Rock" />
+          </span>
+          <span class="option" data-index="3">
+            <img src="assets/images/scissors.png" alt="Scissor" title="Scissor" />
+          </span>
+          <span class="option" data-index="4">
+            <img src="assets/images/spock.png" alt="Spock" title="Spock" />
+          </span>
         </div>
- </section>
+      </section>
 
- <!--player2-->
-          <section id="player2" class="players">
-            <h4 class="name">Bot</h4>
-        <div class="selected-options">
-            <span class="options" data-index="0"></span>
+      <!-- Player 2 area -->
+      <section id="player2" class="players">
+        <h5 class="name">Bot</h5>
+        <div class="selected-option">
+          <span class="option" data-index="0"> </span>
         </div>
         <div class="available-options">
-            <span class="options" data-index="0">
-                <img src="assets/images/lizard.png" alt="lizard" title="lizard">
-            </span>
-            <span class="options" data-index="1">
-                <img src="assets/images/paper.jpg" alt="paper" title="paper">
-            </span>
-            <span class="options" data-index="2">
-                <img src="assets/images/rock.jpg" alt="rock" title="rock">
-            </span>
-            <span class="options" data-index="3">
-                <img src="assets/images/scissors.png" alt="scissors" title="scissors">
-            </span>
-            <span class="options" data-index="4">
-                <img src="assets/images/spock.png" alt="spock" title="spock">
-            </span>
+          <span class="option" data-index="0">
+            <img src="assets/images/lizard.png" alt="Lizard" title="Lizard" />
+          </span>
+          <span class="option" data-index="1">
+            <img src="assets/images/paper.jpg" alt="Paper" title="Paper" />
+          </span>
+          <span class="option" data-index="2">
+            <img src="assets/images/rock.jpg" alt="Rock" title="Rock" />
+          </span>
+          <span class="option" data-index="3">
+            <img src="assets/images/scissors.png" alt="Scissor" title="Scissor" />
+          </span>
+          <span class="option" data-index="4">
+            <img src="assets/images/spock.png" alt="Spock" title="Spock" />
+          </span>
         </div>
- </section>
+      </section>
 
- <!-- Reset button -->
+      <!-- Reset button -->
       <span class="reset"><span>Reset</span></span>
-</main>
-<script src="./assets/js/script.js"></script>
-
-</body>
-
+    </main>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

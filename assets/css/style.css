@@ -25,15 +25,91 @@
     color: black;
 }
 
-/* Result style */
-#message {
-  font-size: 1.5em;
-  text-transform: capitalize;
-  text-align: center;
-  font-weight: bolder;
+/* Score style */
+#result {
+  flex: 1 100%;
 }
 
- /* Reset button */
+#round-message,
+#score {
+  text-align: center;
+}
+
+#round-message {
+  font-size: 1.5em;
+  text-transform: capitalize;
+}
+
+#score {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+/* Player style */
+.players {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex: 1;
+  padding: 10px 25px;
+}
+
+.selected-option,
+.name,
+.available-options {
+  display: inline-flex;
+  flex: 1 100%;
+  padding: 15px 0;
+}
+
+.selected-option,
+.name {
+  justify-content: center;
+}
+
+.name {
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+/* Options Style */
+.available-options {
+  justify-content: space-between;
+}
+
+.option {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 3px;
+  cursor: pointer;
+}
+
+
+
+.option:hover > img {
+  transform: scale(1.1);
+}
+
+.option > img {
+  width: 70%;
+  transition: all 0.2s ease;
+}
+
+.selected-option > .option {
+  width: 110px;
+  height: 110px;
+}
+
+#player2 .option {
+  cursor: not-allowed;
+  background-color: beige;
+}
+
+/* Reset button */
 .reset {
   display: inline-flex;
   flex: 1 100%;
@@ -52,64 +128,7 @@
   transition: all 0.2s ease;
 }
 
-/* Player style */
-.players {
-  display: inline-flex;
-  flex-wrap: wrap;
-  flex: 1;
-  padding: 10px 25px;
-}
 
-.selected-options,
-.name,
-.available-options {
-  display: inline-flex;
-  flex: 1 100%;
-  padding: 15px 0;
-}
 
-.selected-options,
-.name {
-  justify-content: center;
-}
 
-.name {
-  font-size: 1.8em;
-  font-weight: 600;
-}
 
-/* Options Style */
-.available-options {
-  justify-content: space-between;
-}
-
-.options {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 75px;
-  height: 75px;
-  padding: 10px;
-  border-radius: 50%;
-  box-shadow: 0 0 3px;
-  cursor: pointer;
-}
-
-.options:hover > img {
-  transform: scale(1.1);
-}
-
-.options > img {
-  width: 70%;
-  transition: all 0.2s ease;
-}
-
-.selected-options > .options {
-  width: 110px;
-  height: 110px;
-}
-
-#player2 .options {
-  cursor: not-allowed;
-  background-color: beige;
-}
