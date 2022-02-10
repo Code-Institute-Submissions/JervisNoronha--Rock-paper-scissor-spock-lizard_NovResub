@@ -5,7 +5,7 @@ This website is all about having fun by using JavaScript.  This website will be 
 A live link can be found here:  https://jervisnoronha.github.io/-Rock-paper-scissor-spock-lizard/
 
 ![Responsice Mockup](assets/images/Front.png)
-![Responsice Mockup](assets/images/Game.png)
+![Responsice Mockup](assets/images/gallery_1.jpg.png)
 
 ## Features
 
