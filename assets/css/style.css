@@ -126,3 +126,15 @@
 	color: #fff;
 	transition: all 0.2s ease;
 }
+
+/* Main Menu button */
+.index_btn {
+    font-size: 1.8em;
+	cursor: pointer;
+	border: 1px solid blue;
+	padding: 10px 15px;
+	background-color: blue;
+	box-shadow: 0 0 3px;
+	color: #fff;
+	transition: all 0.2s ease;
+}
