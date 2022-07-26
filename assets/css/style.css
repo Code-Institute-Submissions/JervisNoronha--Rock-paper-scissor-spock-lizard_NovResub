@@ -1,6 +1,6 @@
 * {
 	box-sizing: border-box;
-	background-color: red;
+	background-color: white;
 }
 
 #logo {
@@ -101,11 +101,11 @@
 
 #player2 .option {
 	cursor: not-allowed;
-	background-color: navy;
+	background-color: black;
 }
 
 #player1 .option {
-	background-color: purple;
+	background-color: black;
 }
 
 /* Reset button */
