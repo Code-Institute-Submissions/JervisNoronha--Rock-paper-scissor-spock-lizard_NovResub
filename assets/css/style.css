@@ -10,7 +10,7 @@
 }
 
 #menu {
-	font-size: 200%;
+	font-size: 100%;
 	text-align: center;
 	list-style: none;
 }
@@ -21,6 +21,7 @@
 	font-size: 200%;
 	color: black;
 }
+
 
 /* Score style */
 #result {
