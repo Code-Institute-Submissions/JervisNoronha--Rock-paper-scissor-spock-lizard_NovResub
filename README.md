@@ -18,15 +18,25 @@ This section shows you the points system when you win,lose or draw.
 ![Points](assets/images/Points.png)
 
 ### Testing
-HTML-No errors were found
-CSS-No errors found
-JS-
+I used W3C validator to see if there are any errors with my coding (https://validator.w3.org/#validate_by_input+with_options)
+![HTML](assets/images/JAVA%20html.png)
 
-#### Credit
+I used this tool to make sure my css style did not have any errors (https://jigsaw.w3.org/css-validator/)
+![CSS](assets/images/java%20css.png)
+
 ##### Content 
 The Text from the home page was taken from: https://the-big-bang-theory.com/rock-paper-scissors-lizard-spock/
+
 ###### Photos
 The images were taken from: (https://fontawesome.com/)
+
+### Deployment 
+1)Sign up to Github
+2)Create a new repository
+3)Put a repository name
+4)Click on create repository
+
+
 
 
 
